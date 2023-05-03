@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Credit Card Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="credit-card" id="credit-card">
+        <div class="card-background"></div>
+        <div class="card-content">
+          <div class="card-logo" id="card-logo">
+            <img src="https://via.placeholder.com/50x50.png?text=Logo" alt="Card logo">
+          </div>
+          <div class="card-number" id="card-number">
+            <span>2023 04 23 2002 1999</span>
+          </div>
+          <div class="card-details" id="card-details">
+            <div class="card-details-row">
+              <span>Cardholder Name</span>
+              <span>Bé Ngân</span>
+            </div>
+            <div class="card-details-row">
+              <span>Expiration Date</span>
+              <span>Never</span>
+            </div>
+            <div class="card-details-row">
+              <span>Score</span>
+              <span id="cvv">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons-container">
+        <button class="button-plus">+</button>
+        <button class="button-minus">-</button>
+      </div>
+      <div class="reasons-container">
+        <button class="show-reasons">Xem lý do được cộng/bị trừ điểm</button>
+        <ul class="reasons-list" id="reasons-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
